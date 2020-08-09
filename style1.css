@@ -1,0 +1,185 @@
+
+
+
+
+.container1{
+   
+    height: 690px;
+    width: 540px;
+    background: linear-gradient(to right,#f7b4f2,#ff9ef2);
+   /* float: left;*/
+}
+
+.name{
+    font-size: 25px;
+    line-height: 1.4em;
+    color: black;
+    font: xx-large;
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+.navbar{
+  position: fixed;
+  overflow: hidden;
+}
+.card{
+    background: linear-gradient(to right,#f7b4f2,#ff9ef2);
+    position: absolute;
+    top: 70px;
+    display: block;
+    margin:auto;
+    width: 350px;
+    height: 500px;
+    border: 10px solid rgb(12, 0, 0);
+    left: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-text{
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.4em;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+.text{
+    letter-spacing: 5px;
+    color: black;
+}
+.card-body{
+    text-align: center;
+}
+#card-footer{
+    background-color: white;
+    height: 50px;
+}
+.fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 6px 34px;
+  }
+  
+  .fa:hover {
+     opacity:0.7;
+  }  
+  .fa-facebook {
+   
+    color: black;
+  }
+  
+  .fa-twitter {
+    
+    color: black;
+  }
+  .fa-linkedin {
+    
+    color: black;
+  }
+  .fa-instagram {
+   
+    color: black;
+  }
+  .content{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 8vw;
+    text-align: left;
+    position: relative;
+    left: 600px;
+    bottom: 400px;
+}
+.content-2{
+  position: relative;
+  bottom:450px ;
+  left: 650px;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 25px;
+
+}
+.button{
+  font-size: 12px;
+  
+  border-radius: 2px;
+  position: relative;
+  bottom:400px ;
+  left: 650px;
+
+}
+button.btn{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.paragraph{
+  width: 690px;
+  border-radius: 2px;
+  position: relative;
+  bottom:350px ;
+  left: 650px;
+}
+  
+  /*footer*/
+ .copyright{
+   width: 700px;
+ }
+ .footer-text{
+   font-size: smaller;
+   font-weight: 500;
+ }
+ /*resume*/
+ .background{
+   
+   height:2300px;
+   background: linear-gradient(to right,#f1d9f0,#e4d2e1);
+ }
+ .resume{
+  font-size: 40px;
+  line-height: 1.4em;
+  color: black;
+  font: xx-large;
+  font-weight: 800;
+  letter-spacing: 5px;
+  height: 150px;
+  text-align: center;
+ }
+ .Experience{
+   float: inline-start;
+   margin-left: 170px;
+   
+ }
+  .card2{
+   
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   background-color: white;
+   width: 700px;
+   height: 300px;
+   margin: 0 auto; /* Added */
+   float: none; /* Added */
+   margin-bottom: 10px;
+ }
+ /*contact*/
+ .contact{
+   text-align: center;
+  height:900px;
+  background: linear-gradient(to right,#f1d9f0,#e4d2e1);
+ }
+ .card3{
+  
+   top: 70px;
+   background-color: white;
+  margin: 0 auto; /* Added */
+  float: none; 
+  margin-bottom: 10px;
+ } 
+ .talk{
+  padding: 2rem;
+  font-size: 25px;
+  line-height: 1.4em;
+  color: black;
+  font-weight: 800;
+  letter-spacing: 5px;
+ }

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>contact</title>
+</head>
+<body>
+     <!--header-->
+     <header class="bg-light" style="position: fixed; width: 100%; z-index: 1; height: 100px;">
+        <div class="row m-0">
+            <div class="col-md-6">
+                <h1 class="name p-4">Athul Babu A</h1>
+            </div>
+            <div class="col-md-6">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>                 
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                      <ul class="navbar-nav ml-auto mt-3 ">
+                        <li class="nav-item ">
+                          <a class="nav-link text-dark" href="index1.html">About me <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-dark" href="resume.html">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-dark" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="contact.html">Contact</a>
+                          </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </header >
+    <!--end header-->
+    <section>
+        <div class="col" style="padding-top: 100px;">
+            <div class="contact m-5">
+              <a class="talk" ><br>Let's Talk</a>
+            <div class="card3 col-md-6" > 
+                      
+                <form id="submit-form" action="" class="form p-4">
+                   <div class="col-md-4 p-4" style="float: left;">
+                     <label for="exampleInputPassword1">Name</label>
+                   </div>
+                   <div class="col-md-8 p-4" style="float: left;">
+                     <input type="" class="form-control" id="exampleInputPassword1" placeholder="">
+                   </div>
+                   <div class="col-md-4 p-4" style="float: left;">
+                    <label for="exampleInputPassword1">Email</label>
+                  </div>
+                  <div class="col-md-8 p-4" style="float: left;">
+                    <input type="" class="form-control" id="exampleInputPassword1" placeholder="">
+                  </div>
+                  <div class="col-md-4 p-4" style="float: left;">
+                    <label for="exampleInputPassword1">message</label>
+                  </div>
+                  <div class="col-md-8 p-4" style="float: left;">
+                    <textarea type="" class="form-control" rows="3"  id="comment"></textarea> 
+                  </div>
+                  <input type="submit" value="submit" >
+                  
+                  
+                </form>
+                <script>
+                  $("#submit-form").submit((e)=>{
+                      e.preventDefault()
+                      $.ajax({
+                          url:"https://script.google.com/macros/s/AKfycbyodwOBYdZLEQRqvoK0CGUrzjt19JLJr34oMRNZ/exec",
+                          data:$("#submit-form").serialize(),
+                          method:"post",
+                          success:function (response){
+                              alert("Form submitted successfully")
+                              window.location.reload()
+                              //window.location.href="https://google.com"
+                          },
+                          error:function (err){
+                              alert("Something Error")
+              
+                          }
+                      })
+                  })
+              </script>
+                
+            </div>
+
+            </div>
+        </div>
+
+        
+    </section>
+    <!--start footer-->
+    <footer class="bg-light p-3" style="height: 80px;">
+        <div  class="row m-0">
+          <div class="col-md-8"><a class="footer-text"><small>© 2020 by AthulBabu<br>Proudly created by SpidyWebs</small></a></div>
+          <div class="col-md-2"style="text-align: center;"><a class="footer-text"><b>Call</b><br>8137024096  </a></div>
+          <div class="col-md-2"style="text-align: center;"><a class="footer-text"><b>Write</b><br>athulbabubkm1999@gmail.com </a> </div>
+         <!-- <div class="col-md-1 " style="text-align: center;"><a class="footer-text"><b>Follow</b></a><br>
+             <a id="card-footer" href="#" class="fa fa-facebook">
+              
+             </a></div>-->
+        </div>
+       
+  
+      </footer>
+     
+     <!--endfooter-->
+
+</body>
+</html>
